@@ -1,0 +1,23 @@
+.main{
+	text-align: center;
+	height: 200px;
+}
+
+.main p{
+	font-size: 30px;
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	
+}
+
+.main input[type=button]{
+ 	width: 80px;
+	height: 40px;
+	cursor: pointer;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+
+.main input[type=button]:hover{
+	background-color:blueviolet;
+}

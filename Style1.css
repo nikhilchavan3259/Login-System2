@@ -1,0 +1,239 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+body {
+ line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+ display:block;
+}
+
+nav ul {
+ list-style:none;
+}
+
+blockquote, q {
+ quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+
+a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000; 
+ font-style:italic;
+ font-weight:bold;
+}
+
+del {
+ text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0; 
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+
+input, select {
+ vertical-align:middle;
+}
+
+/*My Code*/
+.main{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.main1{
+	background-image: url(images/150168.jpg);
+	background-repeat: no-repeat;
+	background: cover;
+	background-size: 100% 100%;
+	float: left;
+	width: 72%;
+	height: 100%;
+	display: inline;
+}
+
+.main2{
+	float: right;
+	background-color: #A8A8A8;
+	width: 27%;
+	height: 100%;
+	display: inline;
+}
+
+.main3{
+	
+	position:absolute;
+	margin-top: 5vh;
+	margin-left: 60%;
+    border: soild 0px;
+    border-radius: 30px;
+	width: 350px;
+	height: 600px;
+	background-image: url(images/dark_spot_background_texture_50611_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+.main3 h6{
+	margin-top: 10px;
+	font-size: 40px;
+	color:#B7B4B4;
+}
+
+
+.main3 p{
+	margin-top: 20px;
+	font-size: 30px;
+	color:white;
+}
+
+.main3 form input#prn{
+	opacity: 0.7;
+	background-image: url(images/username.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border: 0px;
+	margin-top: 20px;
+	padding-left: 50px;
+	width: 250px; 
+	height: 40px; 
+	font-size: 15px;
+	box-shadow: 0 0 30px;
+	border-bottom: 4px;
+    border-radius: 5px;
+}
+
+
+.main3 form input#pwd{
+	opacity: 0.7;
+	background-image: url(images/password.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border: 0px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	width: 250px; 
+	height: 40px; 
+	font-size: 15px;
+	box-shadow: 0 0 30px;
+	border-bottom: 4px;
+    border-radius: 5px;
+}
+
+.main3 form a{
+	float: right;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: white;
+	text-decoration: none;
+	text-shadow: 0 0 10px black;
+}
+
+
+.main3 form button#submit{
+	opacity: 0.7;
+	background-image: url(images/login.png);
+	background-color: #8A8A8A;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border: 0px;
+	margin-top: 20px;
+	padding-left: 40px;
+	width: 100px; 
+	height: 40px; 
+	font-size: 15px;
+	box-shadow: 0 0 30px;
+	border-bottom: 4px;
+    border-radius: 5px;
+}
+
+
+.main3 form button#submit:hover{
+	background-color: #5E0002;
+	cursor: pointer;
+}
+
+/*.main3 a .main4 {
+	opacity: 0.7;
+	background-image: url(../HTML/images/login.png);
+	background-color: #8A8A8A;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border: 0px;
+	margin-top: 20px;
+	padding-left: 40px;
+	width: 100px; 
+	height: 40px; 
+	font-size: 15px;
+	box-shadow: 0 0 10px;
+	border-bottom: 4px;
+    border-radius: 5px;
+}*/
+
+.main .signup {
+    margin-left: 5%;
+	text-decoration: none;
+	font-size: 40px;
+    color: aqua;
+}

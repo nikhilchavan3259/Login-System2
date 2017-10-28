@@ -1,0 +1,5 @@
+1)create database with name "loginsystem".
+2)create table user2 using command in database text file in same folder.
+3)run file sooad.php
+Changes vatla tar kara ani ja pages var train cha image ahe taiche css set nahi kele karan te nikhil cha laptop 
+madhe barobar desta hota mhanun.

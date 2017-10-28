@@ -1,0 +1,80 @@
+<?php
+session_start();
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="../css/style1.css">
+</head>
+	<body>
+	<nav class="main">
+			<div class="main-heading">
+				Central Railway 
+			</div>
+ 	  		<div class="block-container">
+	 	    	<div class="block1">
+					<form>
+						Sr.No.01-<input type="text" name="Recipet">				
+					</form>
+				</div>
+				<div class="block2">
+					Com.485-B<br>REV.72
+				</div>
+		   </div>
+		   <div class="main-heading1">
+		   	
+		   </div>
+	   	</nav>
+	   	<div class="main-heading1">
+	   		<b>School Certificate to be issued only to Students of not more than 25 years of age except otherwise permitted under the Rules</b>
+	   	</div>
+	   	<section class="container">
+	   		<form>
+	   			I HEREBY CERTIFY that* <input type="text" name="fullname" placeholder="Full Name"> regularly attend this College for the purpose of receiving education, the Instituation of which I am the Principal/Head Master and her/his age this day, according to my belief and from equiries I have made, is <input class="age" type="number" name="age" placeholder="Enter Age"> date of birth as entered in the College Register being <input type="date" name="dob" placeholder="DOB(Format: 14-Sep-2017)"><br><br>
+	   				<div class="sub">
+                        <p>The Particulars of the recognised course he/she is studying is given below:</p>
+	   				    <p>(a) Name of the course  <input type="text" id="course" name="course" placeholder="Course_Name"></p>
+                        <p>(b) Duration of the Course 4years.</p>
+                        <p>(C) Hours of Instructions per day 8 Hours</p>
+	   				</div>
+                    <div class="sub1">
+                        <p>He/She is, therefore, entitled to the Season Ticket as detailed below at the concession rate:-</p><br>
+                        <table style="text-align: left; width: 1317px; height: 100px;" border="1" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td style="vertical-align: middle; text-align: center;"><big><span style="font-weight: bold;">Peroid</span></big></td>
+                                    <td style="text-align: center;"><big><span style="font-weight: bold;">From</span></big></td>
+                                    <td style="text-align: center;"><big><span style="font-weight: bold;">To</span></big></td>
+                                    <td style="text-align: center;"><big><span style="font-weight: bold;">Date &nbsp;of Issue</span></big></td>
+                                    <td style="text-align: center;"><big><span style="font-weight: bold;">Class and Number</span></big></td>
+                                    <td style="text-align: center;"><big><span style="font-weight: bold;">Amount</span></big></td>
+                                </tr>
+                                <tr style="height: 50px;">
+                                    <td style="text-align: center;">Monthly</td>
+                                    <td style="text-align: center;"><input type="text" name="station" placeholder="Station"></td>
+                                    <td style="text-align: center;">Kharghar</td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: center;"><select id="class">
+                                                                        <option>I</option>
+                                                                        <option>II</option>
+                                                                    </select></td>
+                                    <td style="text-align: center;"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="sub2">
+                        <div class="cer">
+                            No. of previous Certificate issued  <input tyepe="text" name="certificate"><br>
+                        </div>
+                        <div class="cer1">
+                            Dated  <input type="date" id="date" name="#"><br>
+                        </div>
+                    </div>
+            </form>
+            <div></div>
+	   	</section>
+	</body>
+</html>
